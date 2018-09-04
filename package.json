@@ -1,0 +1,25 @@
+{
+  "name": "bot_tests",
+  "version": "1.0.0",
+  "description": "Chatbots tests (Telegram, Messenger, Line, etc)",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js",
+    "telegram": "node bandtec-telegram-bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedropadilha13/bot_tests.git"
+  },
+  "author": "Pedro Padilha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedropadilha13/bot_tests/issues"
+  },
+  "homepage": "https://github.com/pedropadilha13/bot_tests#readme",
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
