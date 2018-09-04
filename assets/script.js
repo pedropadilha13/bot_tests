@@ -5,7 +5,7 @@ function isNull(element) {
 }
 
 function personExists(telegramId) {
-    /*Database.query(`SELECT * FROM Aluno WHERE telegramId = ${telegramId}`, (error, results, fields) => {
+    Database.query(`SELECT * FROM Aluno WHERE telegramId = ${telegramId}`, (error, results, fields) => {
         if (error) {
             console.log(error);
             return;
@@ -16,8 +16,7 @@ function personExists(telegramId) {
                 return false;
             }
         }
-    });*/
-    return true;
+    });
 }
 
 module.exports = {

@@ -26,6 +26,7 @@ bot.onText(/\/join/, (msg, match) => {
 		bot.sendMessage(chatId, 'Você já está cadastrado!');
 	} else {
 		bot.sendMessage(chatId, 'Você ainda não está cadastrado, vamos lá!');
+		//cadastrar......
 	}
 
 });
